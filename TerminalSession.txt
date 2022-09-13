@@ -1,1 +1,32 @@
-
+@iydia ➜ /workspaces/cli-basics-iydia (main) $ ls ~
+@iydia ➜ /workspaces/cli-basics-iydia (main) $ pwd
+/workspaces/cli-basics-iydia
+@iydia ➜ /workspaces/cli-basics-iydia (main) $ mkdir CLIBasicsFolder
+@iydia ➜ /workspaces/cli-basics-iydia (main) $ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+@iydia ➜ /workspaces/cli-basics-iydia (main) $ pwd
+/workspaces/cli-basics-iydia
+@iydia ➜ /workspaces/cli-basics-iydia (main) $ cd ..
+@iydia ➜ /workspaces $ pwd
+/workspaces
+@iydia ➜ /workspaces $ touch myfile.txt
+@iydia ➜ /workspaces $ ls
+cli-basics-iydia  myfile.txt
+@iydia ➜ /workspaces $ echo Lydia ICS4Ub >> myfile.txt
+@iydia ➜ /workspaces $ cat myfile.txt
+Lydia ICS4Ub
+@iydia ➜ /workspaces $ cp myfile.txt myfile_copy.txt
+@iydia ➜ /workspaces $ ls
+cli-basics-iydia  myfile_copy.txt  myfile.txt
+@iydia ➜ /workspaces $ mv myfile_copy.txt myfile2.txt
+@iydia ➜ /workspaces $ mv myfile2.txt ~
+@iydia ➜ /workspaces $ ls
+cli-basics-iydia  myfile.txt
+@iydia ➜ /workspaces $ ls ~
+myfile2.txt
+@iydia ➜ /workspaces $ cd ..
+@iydia ➜ /workspaces/cli-basics-iydia (main) $ rm -r CLIBasicsFolder
+@iydia ➜ /workspaces/cli-basics-iydia (main ✗) $ ls
+README.md  TerminalSession.txt
+@iydia ➜ /workspaces/cli-basics-iydia (main ✗) $ ls ~
+myfile2.txt
